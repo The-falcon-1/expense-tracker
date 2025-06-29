@@ -1,0 +1,98 @@
+body {
+  font-family: 'Segoe UI', sans-serif;
+  background: linear-gradient(to right, #e0eafc, #cfdef3);
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  max-width: 700px;
+  margin: 40px auto;
+  background: white;
+  padding: 25px;
+  border-radius: 15px;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+}
+
+h1, h2 {
+  text-align: center;
+  color: #333;
+}
+
+form {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  margin-bottom: 20px;
+}
+
+form input, form button {
+  padding: 10px;
+  flex: 1 1 120px;
+  font-size: 1rem;
+}
+
+button {
+  background: #0078d7;
+  color: white;
+  border: none;
+  cursor: pointer;
+  border-radius: 6px;
+}
+
+button:hover {
+  background: #005fa3;
+}
+
+#expense-list {
+  list-style: none;
+  padding: 0;
+}
+
+#expense-list li {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: #f1f1f1;
+  margin-bottom: 6px;
+  padding: 10px;
+  border-radius: 8px;
+}
+
+.summary {
+  margin-top: 30px;
+  text-align: center;
+}
+
+canvas {
+  margin-top: 10px;
+}
+
+.budget-section {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 10px;
+  margin-bottom: 15px;
+}
+
+.status-box {
+  padding: 8px 12px;
+  border-radius: 6px;
+  font-weight: bold;
+}
+
+.status-green {
+  background-color: #d4edda;
+  color: #155724;
+}
+
+.status-yellow {
+  background-color: #fff3cd;
+  color: #856404;
+}
+
+.status-red {
+  background-color: #f8d7da;
+  color: #721c24;
+}
